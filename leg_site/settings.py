@@ -30,11 +30,13 @@ else:
     DEBUG = True
     SECRET_KEY = "django-insecure-gptf$(%qck$ochb-fpm)*+&dq$7t0$f_r!_d%q0)+k@svh17&i"
 
+DEBUG = True  # todo temp
+
 
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "athanor-26375dc9f445.herokuapp.com",
+    "leg-site-07b654c6382d.herokuapp.com",
     "davidoconnornc.com",
     "www.davidoconnornc.com",
 ]

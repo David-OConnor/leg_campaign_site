@@ -18,4 +18,5 @@ __pypackages__/
 *.dump
 *.db
 
-*.lock
+# If not using req.text, we need uv.lock
+#*.lock
