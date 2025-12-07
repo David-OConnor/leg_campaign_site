@@ -1,0 +1,13 @@
+[project]
+name = "leg-campaign-site"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django~=5.2.4",
+    "dj-database-url~=3.0.1",
+    "dj-static~=0.0.6",
+    "gunicorn~=23.0.0",
+    "psycopg~=3.2.9",
+]

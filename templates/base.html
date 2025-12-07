@@ -1,0 +1,72 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href={% static "style.css" %}>
+
+    <!-- Social / Open Graph -->
+    <meta property="og:title" content="Athanor — Structural Biology Software">
+    <meta property="og:description" content="Powerful interactive tools for exploring biological systems.">
+    <meta property="og:type" content="website">
+
+    <meta property="og:image" content="https://www.athanorlab.com/static/images/daedalus/docked_2.png">
+
+    <!-- Twitter (X) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.athanorlab.com/static/images/daedalus/docked_2.png">
+
+    {% block head_contents %}
+    {% endblock %}
+
+</head>
+
+<body>
+
+<!-- shared menu -->
+<nav style="display:flex;justify-content:space-between;align-items:center;padding:.85rem 1.25rem;background:rgba(2,6,23,.9);backdrop-filter:blur(8px);border-bottom:1px solid rgba(148,163,184,.15);font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+    <div style="display:flex;gap:1.1rem;align-items:center;">
+        <a href="/" id="menu-home" style="color:#e2e8f0;text-decoration:none;font-weight:600;">Athanor</a>
+        <a href="/daedalus" id="menu-daedalus" style="color:#cbd5f5;text-decoration:none;font-size:.8rem;">Daedalus</a>
+        <a href="/plascad" id="menu-plascad" style="color:#cbd5f5;text-decoration:none;font-size:.8rem;">PlasCAD</a>
+        <a href="/rust-tools" id="menu-rust" style="color:#cbd5f5;text-decoration:none;font-size:.8rem;">Rust Tools</a>
+    </div>
+    <a href="mailto:the_alchemist@fastmail.com" style="background:linear-gradient(135deg,#38bdf8 0%,#0ea5e9 100%);color:#020617;text-decoration:none;font-size:.72rem;padding:.35rem .8rem;border-radius:999px;font-weight:500;">Contact</a>
+</nav>
+
+{% block contents %}{% endblock %}
+
+<div id="img-modal" class="img-modal-backdrop">
+    <img id="img-modal-img" src="" alt="Full resolution">
+</div>
+</body>
+
+<script>
+    const modal = document.getElementById('img-modal');
+    const modalImg = document.getElementById('img-modal-img');
+
+    document.addEventListener('click', function (e) {
+        const link = e.target.closest('a.zoomable');
+        if (link) {
+            e.preventDefault();
+            modalImg.src = link.href;
+            modal.style.display = 'flex';
+        }
+    });
+
+    modal.addEventListener('click', function () {
+        modal.style.display = 'none';
+        modalImg.src = '';
+    });
+</script>
+
+</html>

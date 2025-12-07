@@ -6,6 +6,7 @@
 */dist/
 */build/
 *.pyc
+*.venv
 
 __pypackages__/
 
@@ -16,3 +17,5 @@ __pypackages__/
 
 *.dump
 *.db
+
+*.lock

@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block head_contents %}
+    <title>Athanor — Structural Biology Software</title>
+{% endblock %}
+
+{% block contents %}
+    <div class="home-body">
+        <header class="hero">
+
+            <div class="hero-left">
+                <h1>Software for drug design and research</h1>
+                <p style="margin-bottom: 40px;">
+                    Powerful interactive tools for exploring biological systems.
+                </p>
+
+
+                <h2>Daedalus Suite for structural biology</h2>
+                <p>
+                    A single toolchain for viewing, building, simulating, and validating macromolecules.
+                    Daedalus combines capabilities found in PyMOL, Coot, VMD, and MD packages, with GPU-accelerated
+                    Rust backends and modern visualization.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn-primary" href="https://github.com/David-OConnor/daedalus/releases">Download Daedalus</a>
+                    <a class="btn-secondary" href="/daedalus">Details</a>
+                    <a class="btn-secondary" href="/docs">Documentation</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="product-card daedalus-highlight">
+                    <h2>Daedalus</h2>
+                    <small>View and edit molecules, easy-to-use molecular dynamics, and docking.</small>
+                    <p style="margin-top:.65rem; color:var(--muted); font-size:.78rem;">
+                        View and manipulate proteins, organic molecules, lipids, nucleic acids, and electron density.
+                        Integrated dynamics. Fast on modern GPUs.
+                    </p>
+
+                    <a href="/daedalus" class="btn-secondary" style="margin-top:.7rem; font-size:.75rem; display:inline-flex;">Details and download</a>
+                </div>
+                <div class="product-card">
+                    <h2>PlasCAD</h2>
+                    <small>Plasmid design and validation</small>
+                    <p style="margin-top:.5rem; color:var(--muted); font-size:.75rem;">Design plasmids, validate primers, and keep small molecular biology workflows organized.</p>
+
+                    <a href="/plascad" class="btn-secondary" style="margin-top:.7rem; font-size:.75rem; display:inline-flex;">Details and download</a>
+                </div>
+                <div class="product-card">
+                    <h2>Rust and Python structural bio  libraries</h2>
+                    <small>Foundational bio libraries in Rust</small>
+                    <p style="margin-top:.5rem; color:var(--muted); font-size:.75rem;">
+                        Operate on common file formats, and interact with database APIs. Run MD with Amber parameters. Includes marching
+                        cubes isosurfaces and more.</p>
+                    <a href="/rust-tools" class="btn-secondary" style="margin-top:.7rem; font-size:.75rem; display:inline-flex;">Details and download</a>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="gallery"
+                 style="max-width: 960px;
+                margin: 3rem auto 0;
+                display: flex;
+                justify-content: center;">
+            <div class="gallery-item"
+                 style="background: var(--surface, #121212);
+                border: 1px solid rgba(255,255,255,0.03);
+                border-radius: 1rem;
+                padding: 1.25rem;
+                box-shadow: 0 18px 40px rgba(0,0,0,0.12);">
+                <a href="{% static 'images/daedalus/docked_2.png' %}" class="zoomable"
+                   style="display: block;">
+                    <img src="{% static 'images/daedalus/docked_2.png' %}"
+                         alt="Electron density isosurface"
+                         style="display: block;
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 0.75rem;">
+                </a>
+            </div>
+        </section>
+
+        <section class="product-matrix">
+            <div class="card">
+                <h3>Daedalus</h3>
+                <p>
+                    View proteins and other molecules in 3D, render electron density, run molecular dynamics, and perform docking.
+                    Built on a modern Rust engine.
+                </p>
+                <a href="/daedalus" class="btn-secondary" style="margin-top:.7rem; display:inline-flex; font-size:.75rem;">Download</a>
+            </div>
+            <div class="card">
+                <h3>PlasCAD</h3>
+                <p>
+                    Visual plasmid editor for day-to-day molecular biology. Primer design, feature annotation, and validation tools.
+                </p>
+                <a href="/plascad" class="btn-secondary" style="margin-top:.7rem; display:inline-flex; font-size:.75rem;">Download</a>
+            </div>
+            <div class="card">
+                <h3>Bio libraries for Rust and Python</h3>
+                <p>Foundational crates and bindings that make structural biology native to modern languages.</p>
+                <div class="lib-list">
+                    <a href="https://github.com/David-OConnor/dynamics">Dynamics: MD with Amber force fields</a>
+                    <a href="https://github.com/David-OConnor/bio_files">Bio Files: mmCIF, Mol2, SDF, MAP</a>
+                    <a href="https://github.com/David-OConnor/na_seq">NA Seq: sequence primitives</a>
+                    <a href="https://github.com/David-OConnor/bio_apis">Bio APIs: RCSB, PubChem, DrugBank</a>
+                    <a href="https://github.com/David-OConnor/ewald">Ewald SPME: Fast coulomb forces with periodic boundary conditions</a>
+                    <a href="https://github.com/David-OConnor/mcubes">Marching Cubes: isosurfaces</a>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Why Athanor</h3>
+                <p>
+                    We make powerful software for scientists.
+                    Everything is open-source, fast, and easy to use.
+                </p>
+                <p>The software <em>just works</em>. A smooth user experience is our priority.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div>© {{ now|date:"Y" }} Athanor. Structural biology and molecular dynamics software.</div>
+            <div style="display:flex; gap:1rem;">
+                <a href="/downloads" style="color:inherit; text-decoration:none;">Downloads</a>
+                <a href="/docs" style="color:inherit; text-decoration:none;">Docs</a>
+                <a href="/contact" style="color:inherit; text-decoration:none;">Contact</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const el = document.getElementById("menu-home");
+        if (el) el.style.color = "#F6F7EB";
+    </script>
+{% endblock %}
