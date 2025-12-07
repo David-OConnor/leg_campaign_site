@@ -30,8 +30,6 @@ else:
     DEBUG = True
     SECRET_KEY = "django-insecure-gptf$(%qck$ochb-fpm)*+&dq$7t0$f_r!_d%q0)+k@svh17&i"
 
-DEBUG = True  # todo temp
-
 
 ALLOWED_HOSTS = [
     "localhost",

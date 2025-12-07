@@ -58,7 +58,7 @@ body{
 .md-container, main, article{
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 48px 20px 80px;
+  padding: 48px clamp(20px, 5vw, 56px) 80px; /* <- wider side padding on big screens */
 }
 
 /* Optional “card” wrapper for the content */
@@ -233,9 +233,13 @@ kbd{
   justify-content: space-between;
   gap: 1rem;
 
-  padding: 14px 18px;
+  /* Full-width bar */
+  max-width: none;
+  width: calc(100% - 2 * clamp(12px, 3vw, 28px));
   margin: 16px auto 28px;
-  max-width: var(--maxw);
+
+  /* Inner padding so items aren't against the navbar edges */
+  padding: 14px clamp(14px, 2.2vw, 22px);
 
   background: color-mix(in srgb, var(--card) 85%, transparent);
   border: 1px solid var(--border);
@@ -243,11 +247,33 @@ kbd{
   box-shadow: var(--shadow);
   backdrop-filter: blur(10px);
 
+  /* Only show scrollbar if it truly overflows */
   overflow-x: auto;
+  overflow-y: hidden;
+
+  /* Hide scrollbar visuals across browsers (still scrolls if needed) */
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE/Edge legacy */
   -webkit-overflow-scrolling: touch;
 }
+.navbar::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
 
-.navbar::-webkit-scrollbar{ height: 8px; }
+/* Optional: if you want the left menu group to wrap instead of scrolling when it gets long */
+.navbar > div{
+  flex: 1 1 auto;
+  min-width: 0;
+  flex-wrap: wrap;   /* lets items wrap onto a second line before scrolling */
+}
+
+/* Keep the Contact pill from shrinking weirdly */
+.navbar > a{
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
 .navbar::-webkit-scrollbar-thumb{
   background: color-mix(in srgb, var(--border) 70%, transparent);
   border-radius: 999px;
