@@ -10,4 +10,5 @@ dependencies = [
     "dj-static~=0.0.6",
     "gunicorn~=23.0.0",
     "psycopg~=3.2.9",
+    "markdown~=3.10",
 ]
