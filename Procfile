@@ -1,1 +1,1 @@
-web: gunicorn chemview_website.wsgi --log-file -
+web: gunicorn leg_site.wsgi --log-file -
