@@ -1,0 +1,39 @@
+site_name: Daedalus Documentation
+site_url: https://www.athanorlab.com/daedalus
+use_directory_urls: false
+
+repo_name: Source code
+repo_url: https://www.github.com/david-oconnor/daedalus
+
+theme:
+  name: material
+  icon:
+    repo: material/home
+
+#  features:
+#    - navigation.tabs
+
+nav:
+  - Back to home page: '/'
+  - Introduction: index.md
+  - Installation: install.md
+  - Opening molecules: open_mols.md
+  - Camera controls: camera.md
+  - Selections: select.md
+  - Hotkeys: hotkeys.md
+  - Molecular dynamics: md.md
+  - Databases: databases.md
+  - GPU use: gpu.md
+  - Saving the sessions: save_load.md
+  - Orca integration: orca.md
+  - Molecule editor: editor.md
+  - Lipids: lipids.md
+  - Nucleic Acids: nucleic_acids.md
+  - Electron density: density.md
+  - CLI: cli.md
+  - Supporting libs: libs.md
+
+
+extra:
+  generator: false
+  homepage: https://www.athanorlab.com/daedalus
