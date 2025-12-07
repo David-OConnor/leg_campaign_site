@@ -1,5 +1,4 @@
-# Athanor Labs website
+# Website for my 2026 NC legislature run
 
-## Building the docs
-`cd docs`
-`mkdocs build`
+## Building
+- todo
