@@ -18,11 +18,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from . import views
+from main_ import views
+
 
 urlpatterns = [
+    path("admin/", admin.site.urls),
     path("", views.home),
-    # path("daedalus", views.daedalus),
-    path("plascad", views.plascad),
-    path("rust-tools", views.rust_tools),
+    path("<slug:page>/", views.page_generic, name="page_generic"),
 ]
