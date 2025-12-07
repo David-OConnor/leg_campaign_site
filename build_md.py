@@ -4,6 +4,7 @@ import markdown
 
 from main_.views import pages
 
+
 def build_markdown() -> None:
     for page in pages:
         md_text = Path(f"./md_pages/{page}.md").read_text(encoding="utf-8")
@@ -17,9 +18,9 @@ def build_markdown() -> None:
 {{% endblock %}}
 """
 
-        print("TT: {:?}", template_text)
-
         Path(f"./templates/{page}.html").write_text(template_text, encoding="utf-8")
+
+    print("Complete; templates dir populated with HTML from MD files.")
 
 
 build_markdown()
