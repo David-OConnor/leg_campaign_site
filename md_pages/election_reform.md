@@ -1,6 +1,6 @@
 # Democratic reform
 
-A fair election system is critical to a healthy democracy, and is a foundation to everything else in politics. Our current system strongly favors incumant candidates, at the expensive of representation of the people.
+A fair election system is critical to a healthy democracy, and is a foundation to everything else in politics. Our current system strongly favors incumant candidates, at the expense of representation of the people.
 
 
 ## Gerrymandering
@@ -8,8 +8,8 @@ There is no conscionable justification for our Gerrymandered electoral districts
 
 We cannot allow the people who are elected to determine the election boundaries. This is an inherrantly unfair system with misaligned incentives. Use system with districts that aren't hand-selected to benefit specific parties or candidates
 
-### (Specific proposal)
-When elected, I will continue to press for this as a top priority, and will continue to draft and promote legislation that provides a practical path forward on this.
+### Legislation
+When elected, I will continue to press for this as a top priority, and will continue to draft and promote legislation that provides a practical path forward on this. I support NC [HR20: Establishing the Select Committee on Electoral Reform]((https://www.congress.gov/bill/119th-congress/house-resolution/20/text?s=1&r=5&q=%7B%22search%22%3A%22election+reform%22%7D))
 
 - Fix our districts. Gerrymandered districts run counter to the most basic principles of democracy.  Fix them: There is no valid justification for keeping them. This is a truly bipartisan problem, and shows that we’re serious about democracy, and fighting corruption. Our current districts are an embarrassment.
 

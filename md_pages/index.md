@@ -1,7 +1,7 @@
 # David O'Connor for North Carolina General Assembly
 
 For District 38. (Raleigh) I will fight for democratic reform,
-eductation, and healthcare.
+housing, and education.
 
 ## Veteran and engineer: Focused on fixing practical problems
 
@@ -23,4 +23,4 @@ Air force veteran with 12 years in service, and 1,500 combat flight hours.
 Moved to North Carolina in 2017 after being assigned to Seymour Johnson AFB,
 and have lived here since.
 
-I work as a systems engineer at a small business.
+I work as a systems engineer at a small business. I write software, design electronics, and manage projects.
