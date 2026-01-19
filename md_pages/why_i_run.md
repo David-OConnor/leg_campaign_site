@@ -13,3 +13,12 @@ What I won't: Scapegoat certain groups of people.
 
 ## Long-term thinking
 I'm going to fight build a better tomorrow, for our children, and a better today for ordinary Americans of all political backgrounds, urban, suburban, and rural.
+
+
+## Direct communications
+I refuse to modulate my communications in order play games or win points. I mean everything I say, and will never dumb down my message, lie, or tell half-truths. I respect my fellow Americans, and will treat you with the empathy and respect you deserve. 
+
+
+## Honesty and integrity
+
+
