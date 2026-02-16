@@ -1,18 +1,20 @@
+from pathlib import Path
+
 from django.http import HttpRequest, HttpResponse, Http404
 from django.shortcuts import render
 
-# Must match the markdown names. Used to create HTML files,
-# urls, and views.
-pages = [
-    "index",
-    "healthcare",
-    "election_reform",
-    "education",
-    "veterans",
-    "infrastructure",
-    "healthcare",
-    "environment",
-]
+MD_DIR = Path(__file__).resolve().parent.parent / "md_pages"
+
+
+def _discover_pages() -> set[str]:
+    """Build the page whitelist by scanning md_pages/."""
+    return {
+        str(p.relative_to(MD_DIR).with_suffix("")).replace("\\", "/")
+        for p in MD_DIR.rglob("*.md")
+    }
+
+
+pages = _discover_pages()
 
 
 def home(request: HttpRequest) -> HttpResponse:

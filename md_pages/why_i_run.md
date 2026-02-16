@@ -14,11 +14,18 @@ What I won't: Scapegoat certain groups of people.
 ## Long-term thinking
 I'm going to fight build a better tomorrow, for our children, and a better today for ordinary Americans of all political backgrounds, urban, suburban, and rural.
 
+I support efforts that will have payoffs long into the future - beyond the next election or funding cycle;
+and individual life times. This means investing in our future through long-term initiatives in education,
+basic research, and protecting the biosphere.
+
 
 ## Direct communications
-I refuse to modulate my communications in order play games or win points. I mean everything I say, and will never dumb down my message, lie, or tell half-truths. I respect my fellow Americans, and will treat you with the empathy and respect you deserve. 
+I refuse to modulate my communications in order play games or win points. I mean everything I say, and will never dumb down my message, lie, or tell half-truths. I respect my fellow Americans, and will treat you with the empathy and respect you deserve.
 
+## Honesty, integrity, and ethics
 
-## Honesty and integrity
+I respect you, and am running for office to support society as a whole - now and into the future I will never bow to the interests of special interest groups or PACs. I'm horrified and embarrassed that special interest groups brazenly compromise our political process. We can do better - I will lead as an example.
+
+I will always act with ethics first, and will never support legislation just because it
 
 

@@ -24,5 +24,5 @@ from main_ import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.home),
-    path("<slug:page>/", views.page_generic, name="page_generic"),
+    path("<path:page>/", views.page_generic, name="page_generic"),
 ]

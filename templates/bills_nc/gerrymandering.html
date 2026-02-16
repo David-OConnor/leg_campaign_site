@@ -1,0 +1,231 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block contents %}
+<h1 id="north-carolina-general-assembly">NORTH CAROLINA GENERAL ASSEMBLY</h1>
+<h2 id="session-2025">SESSION 2025</h2>
+<h3 id="house-bill-____">HOUSE BILL ____</h3>
+<p><strong>Short Title:</strong> Fair Districts Act. (Public)</p>
+<hr />
+<h2 id="a-bill-to-be-entitled">A BILL TO BE ENTITLED</h2>
+<h3 id="an-act-to-mandate-a-fully-specified-reproducible-geometry-based-redistricting-plan-generation-process-that-produces-compact-contiguous-population-balanced-voting-rights-actcompliant-electoral-districts-to-prohibit-partisan-and-incumbent-favoritism-to-prohibit-committee-line-drawing-discretion-and-amendments-to-require-objective-compactness-and-outlier-testing-before-adoption-to-provide-automatic-adoption-rules-that-prevent-deadlock-and-to-submit-a-conforming-constitutional-amendment-to-the-qualified-voters-of-north-carolina">AN ACT to mandate a fully specified, reproducible, geometry-based redistricting plan-generation process that produces compact, contiguous, population-balanced, Voting Rights Act–compliant electoral districts; to prohibit partisan and incumbent favoritism; to prohibit committee “line-drawing” discretion and amendments; to require objective compactness and outlier testing before adoption; to provide automatic adoption rules that prevent deadlock; and to submit a conforming constitutional amendment to the qualified voters of North Carolina.</h3>
+<hr />
+<h2 id="whereas">Whereas</h2>
+<ol>
+<li>Free and fair elections require electoral districts that reflect communities and geography rather than political advantage; and  </li>
+<li>Clear, neutral, testable standards—combined with transparency and enforceable prohibitions—reduce the risk of partisan gerrymandering; and  </li>
+<li><strong>Experience in multiple jurisdictions demonstrates that commissions and bipartisan committees may fail to timely agree on maps</strong>, resulting in delay and litigation; and  </li>
+<li>Advances in public mapping tools and open methods now permit a practical, reproducible process centered on <strong>geometry, objective metrics, and publicly auditable computation</strong>; and  </li>
+<li>For these reasons, the State’s district boundaries must be produced by <strong>a non-discretionary, rule-bound geometric method</strong>, not by negotiation, compromise “line edits,” or human design by committee.</li>
+</ol>
+<p><strong>Now, therefore,</strong> The General Assembly of North Carolina enacts:</p>
+<hr />
+<h1 id="part-i-definitions-and-purpose">PART I. DEFINITIONS AND PURPOSE</h1>
+<h2 id="section-1-short-title">SECTION 1. Short Title.</h2>
+<p>This act shall be known as the <strong>“Geometric Fair Districts Act.”</strong></p>
+<h2 id="section-2-definitions">SECTION 2. Definitions.</h2>
+<p>For purposes of this act:</p>
+<ol>
+<li><strong>“Commission”</strong> means the North Carolina Geometric Redistricting Commission established in Part II.  </li>
+<li><strong>“Technical Unit”</strong> means the nonpartisan technical staff described in Section 6.  </li>
+<li><strong>“Algorithmic Geometric Plan”</strong> means a districting plan produced solely by the Geometry-First Method required by Section 10, using only permitted inputs, with no post-generation manual boundary edits.  </li>
+<li><strong>“Districting plan”</strong> means a full set of districts for one elected body (North Carolina House of Representatives, North Carolina Senate, or North Carolina’s districts for the United States House of Representatives).  </li>
+<li><strong>“Geometry-first”</strong> means generated and evaluated primarily using geographic and census population data, contiguity, compactness measures, and political-subdivision boundaries, and <strong>not</strong> using partisan, incumbent, or candidate data, except as expressly permitted for compliance review under State and federal law.  </li>
+<li><strong>“Political data”</strong> means party registration, past election results, partisan indexes, modeled partisanship, incumbents’ addresses, candidates’ addresses, and any data derived from those items.  </li>
+<li><strong>“Compactness metrics”</strong> include, at minimum:</li>
+<li>a. <strong>Cut-Edges Compactness</strong> (graph-based boundary complexity),  </li>
+<li>b. <strong>Reock Compactness</strong>, and  </li>
+<li>c. <strong>Polsby–Popper Compactness</strong>.  </li>
+<li><strong>“Outlier analysis”</strong> means a statistical evaluation comparing a proposed plan to a large ensemble of alternative plans generated without political data, to determine whether the proposed plan is an extreme outlier with respect to partisan outcomes or other plan-level measures, consistent with the limitations and prohibitions in this act.  </li>
+<li><strong>“VRA”</strong> means the federal Voting Rights Act of 1965, as amended, including Section 2, and any controlling federal judicial interpretations.  </li>
+<li><strong>“Manual boundary edit”</strong> means any human-directed adjustment that changes which census blocks, precincts, or other geographic units are assigned to districts <strong>after</strong> a candidate plan has been generated by the Geometry-First Method, excluding only (i) correction of clerical/formatting errors in published descriptions, or (ii) replacement of an input dataset with a corrected version and <strong>rerun</strong> of the method.</li>
+</ol>
+<h2 id="section-3-purpose">SECTION 3. Purpose.</h2>
+<p>The purposes of this act are to:
+1. Produce districts that are <strong>neutral, compact, contiguous, population-balanced, and transparent</strong>;<br />
+2. Make gerrymandering practically difficult by requiring a <strong>reproducible, geometry-first, algorithmic plan-generation method</strong>;<br />
+3. Prevent deadlock and bargaining by requiring <strong>automatic, non-discretionary plan selection</strong> and by prohibiting human “committee line-drawing”; and<br />
+4. Provide enforceable guardrails, including <strong>prohibitions on partisan favoritism</strong>, public disclosure, and objective metrics-based review prior to adoption.</p>
+<hr />
+<h1 id="part-ii-north-carolina-geometric-redistricting-commission">PART II. NORTH CAROLINA GEOMETRIC REDISTRICTING COMMISSION</h1>
+<h2 id="section-4-establishment-ministerial-role-in-map-selection">SECTION 4. Establishment; Ministerial Role in Map Selection.</h2>
+<p>There is established the <strong>North Carolina Geometric Redistricting Commission</strong> as an independent body.</p>
+<ol>
+<li>The Commission’s role is <strong>oversight, transparency, certification, and public process</strong>.  </li>
+<li>The Commission <strong>shall not draw maps by hand</strong>, shall not negotiate boundary changes, and shall not adopt any plan except as provided by the <strong>automatic selection rules</strong> in Section 15.  </li>
+<li>No member of the Commission, nor any staff, shall direct or request any <strong>Manual boundary edit</strong>.</li>
+</ol>
+<h2 id="section-5-composition-eligibility-terms">SECTION 5. Composition; Eligibility; Terms.</h2>
+<ol>
+<li>The Commission shall consist of <strong>11 members</strong>, selected to reflect the State’s geographic diversity and unaffiliated/major-party balance.  </li>
+<li>Members shall be ineligible if, within the prior <strong>6 years</strong>, they:</li>
+<li>a. held partisan elected office,  </li>
+<li>b. served as an officer/employee of a political party or campaign,  </li>
+<li>c. served as a registered lobbyist, or  </li>
+<li>d. received significant compensation as a political consultant.  </li>
+<li>Members shall serve for the duration of a redistricting cycle and shall be subject to open meetings and public records requirements as set forth in Part IV.</li>
+</ol>
+<h2 id="section-6-staff-and-technical-unit">SECTION 6. Staff and Technical Unit.</h2>
+<ol>
+<li>The Commission shall establish a <strong>nonpartisan Technical Unit</strong> consisting of GIS and data staff who shall:</li>
+<li>a. obtain and preprocess census and geographic data;  </li>
+<li>b. implement and run the Geometry-First Method required by this act;  </li>
+<li>c. publish data, code, and outputs as required; and  </li>
+<li>d. certify that each published plan is an <strong>Algorithmic Geometric Plan</strong> produced without political data.  </li>
+<li>The Technical Unit shall not use political data in plan construction and shall not perform Manual boundary edits.</li>
+</ol>
+<hr />
+<h1 id="part-iii-mandatory-districting-criteria-order-of-priority">PART III. MANDATORY DISTRICTING CRITERIA (ORDER OF PRIORITY)</h1>
+<h2 id="section-7-baseline-criteria-highest-priority">SECTION 7. Baseline Criteria (Highest Priority).</h2>
+<p>All plans shall satisfy, in the following order:</p>
+<ol>
+<li><strong>Federal and State Law Compliance.</strong> Compliance with the United States Constitution, the North Carolina Constitution, and the VRA.  </li>
+<li><strong>Equal Population.</strong></li>
+<li>a. Congressional districts shall be as nearly equal in population as practicable.  </li>
+<li>b. State House and State Senate districts shall comply with applicable population-deviation standards under controlling law.  </li>
+<li><strong>Contiguity.</strong> Every district shall be contiguous; contiguity by water is sufficient where reasonably necessary. Areas that meet only at a point shall not be deemed contiguous.  </li>
+<li><strong>Single-Member Districts.</strong> Districts shall be single-member districts unless otherwise required by federal law.</li>
+</ol>
+<h2 id="section-8-secondary-neutral-criteria-geometry-first">SECTION 8. Secondary Neutral Criteria (Geometry-First).</h2>
+<p>Subject to Section 7, all plans shall:</p>
+<ol>
+<li><strong>Compactness.</strong> Maximize compactness using the Compactness Metrics defined in Section 2(7).  </li>
+<li><strong>Minimize Splits.</strong> Minimize the splitting of counties, municipalities, and precincts, except as necessary to comply with Section 7.  </li>
+<li><strong>Respect Political Subdivisions.</strong> Where feasible, follow county and municipal boundaries and avoid unnecessary tentacles or corridors.  </li>
+<li><strong>Communities of Interest.</strong> Respect communities of interest to the extent practicable <strong>only through the objective proxies</strong> in this act (political subdivisions, geographic contiguity, and compactness), and not through negotiated boundary trades.</li>
+</ol>
+<h2 id="section-9-prohibited-purposes-and-data-use">SECTION 9. Prohibited Purposes and Data Use.</h2>
+<ol>
+<li><strong>No Partisan Favoritism.</strong> No plan shall be drawn for the purpose of favoring or disfavoring a political party.  </li>
+<li><strong>No Incumbent or Candidate Favoritism.</strong> No plan shall be drawn for the purpose of favoring or disfavoring an incumbent, candidate, or potential candidate.  </li>
+<li><strong>Prohibited Inputs.</strong> Political data shall not be used in the construction of any plan.  </li>
+<li><strong>Permitted, Limited Review Use.</strong> Political data may be used <strong>only</strong> for:</li>
+<li>a. VRA compliance evaluation where required by law; and  </li>
+<li>b. the outlier analysis required by Part IV, provided that such data is not used to modify a plan to advantage a party or incumbent.  </li>
+</ol>
+<hr />
+<h1 id="part-iv-mandatory-geometry-first-plan-generation-transparency-and-testing">PART IV. MANDATORY GEOMETRY-FIRST PLAN GENERATION, TRANSPARENCY, AND TESTING</h1>
+<h2 id="section-10-mandated-geometry-first-method-no-committee-line-drawing">SECTION 10. Mandated Geometry-First Method; No Committee Line-Drawing.</h2>
+<ol>
+<li>The Technical Unit shall generate each districting plan using a single <strong>Geometry-First Method</strong> that is open, reproducible, and primarily geometric.  </li>
+<li>The Method shall be <strong>fully specified</strong> so that any qualified member of the public can reproduce the same outputs using the same inputs and seed.  </li>
+<li>The Method shall include:</li>
+<li>a. a deterministic or publicly-seeded stochastic process;  </li>
+<li>b. an initial <strong>splitline-style partitioning</strong> step that uses straight-line or shortest-boundary splits to create compact components; and  </li>
+<li>c. an optimization step that selects best plans under Section 11 scoring, subject to Sections 7–9 constraints.  </li>
+<li><strong>No Manual Boundary Edits.</strong> After any candidate plan is generated, no Commission member or staff may alter district boundaries by hand. If a legal defect is identified, the remedy shall be limited to:</li>
+<li>a. correcting the input dataset (if erroneous) and rerunning; and/or  </li>
+<li>b. adding or tightening <strong>objective constraints</strong> required for compliance (e.g., VRA constraints) and rerunning; and/or  </li>
+<li>c. selecting the next-highest-scoring compliant plan produced by the Method.  </li>
+</ol>
+<h2 id="section-11-objective-scoring-function-fixed-weights-tie-breakers">SECTION 11. Objective Scoring Function; Fixed Weights; Tie-Breakers.</h2>
+<ol>
+<li>The Technical Unit shall score each candidate plan using a published scoring function with weights fixed <strong>by statute</strong> and frozen for the entire cycle.  </li>
+<li>The scoring function shall include, at minimum:</li>
+<li>a. plan-wide <strong>Cut-Edges Compactness</strong>;  </li>
+<li>b. district-level <strong>Reock</strong> compactness aggregated plan-wide;  </li>
+<li>c. district-level <strong>Polsby–Popper</strong> compactness aggregated plan-wide; and  </li>
+<li>d. penalties for splitting counties, municipalities, and precincts.  </li>
+<li>The Commission shall publish:</li>
+<li>a. the exact formula;  </li>
+<li>b. all parameter values and weights; and  </li>
+<li>c. a plain-language explanation of how scores are computed.  </li>
+<li><strong>Tie-breakers.</strong> If two or more plans are tied within a de minimis tolerance under the scoring function, the Technical Unit shall select the plan that, in order:</li>
+<li>a. splits fewer counties;  </li>
+<li>b. splits fewer municipalities;  </li>
+<li>c. splits fewer precincts;  </li>
+<li>d. has higher minimum district Polsby–Popper;  </li>
+<li>e. has higher average Reock.  </li>
+</ol>
+<h2 id="section-12-public-reproducibility-and-disclosure">SECTION 12. Public Reproducibility and Disclosure.</h2>
+<p>At each stage, the Commission shall publish on a publicly accessible website:</p>
+<ol>
+<li>All datasets used (with citations and versions), excluding any confidential data not required for map drawing;  </li>
+<li>All code used to generate plans and compute metrics, under an open license;  </li>
+<li>All random seeds and run parameters sufficient to reproduce results;  </li>
+<li>The full set of candidate plans considered for adoption (or a representative set not fewer than 1,000 plans, if computationally necessary), along with scores; and  </li>
+<li>A certification by the Technical Unit that no political data was used in construction and that no Manual boundary edits were performed.</li>
+</ol>
+<h2 id="section-13-required-outlier-analysis-prior-to-finalization">SECTION 13. Required Outlier Analysis Prior to Finalization.</h2>
+<ol>
+<li>Before finalizing any plan, the Commission shall obtain an independent outlier analysis performed by:</li>
+<li>a. a third-party consultant selected through a transparent process, or  </li>
+<li>b. a qualified academic or public-interest institution with demonstrated expertise.  </li>
+<li>The outlier analysis shall:</li>
+<li>a. generate an ensemble of alternative plans meeting Sections 7–9 using no political data in construction;  </li>
+<li>b. compare the selected plan to the ensemble; and  </li>
+<li>c. determine whether the selected plan is an <strong>extreme outlier</strong> with respect to partisan outcomes and any other metrics the Commission adopts by rule.  </li>
+<li><strong>Restriction.</strong> If the selected plan is found to be an extreme outlier favoring a party, the Technical Unit shall:</li>
+<li>a. publish that finding; and  </li>
+<li>b. select the next-best compliant plan under Section 15, unless deviation is necessary to comply with Section 7(1), in which case the Technical Unit shall publish written findings explaining the necessity.</li>
+</ol>
+<h2 id="section-14-public-hearings-and-comment">SECTION 14. Public Hearings and Comment.</h2>
+<ol>
+<li>The Commission shall hold not fewer than <strong>20 public hearings</strong> across the State during the cycle, including hearings both before and after preliminary publication of plans, with live-streaming and virtual participation.  </li>
+<li>The Commission shall accept written submissions and proposed maps from the public and publish them promptly; however, public-submitted maps shall not be adopted unless they are produced as Algorithmic Geometric Plans by rerunning the Method with publicly disclosed parameters.</li>
+</ol>
+<hr />
+<h1 id="part-v-automatic-adoption-anti-deadlock-non-amendability">PART V. AUTOMATIC ADOPTION; ANTI-DEADLOCK; NON-AMENDABILITY</h1>
+<h2 id="section-15-automatic-selection-and-adoption-by-operation-of-law">SECTION 15. Automatic Selection and Adoption by Operation of Law.</h2>
+<ol>
+<li>For each elected body (NC House, NC Senate, and U.S. House), the Technical Unit shall produce:</li>
+<li>a. a <strong>Preliminary Algorithmic Plan Set</strong> (not fewer than 1,000 candidate plans), and  </li>
+<li>b. a <strong>Selected Plan</strong> chosen strictly by Section 11 scoring and Section 13 outlier restriction.  </li>
+<li>Upon publication of the Selected Plan and certifications required by Section 12(5), the Selected Plan shall become the <strong>Final Plan by operation of law</strong>, without further discretion, amendment, or “line editing” by the Commission.  </li>
+<li>The Commission shall meet to publicly acknowledge and record the Final Plan; however, <strong>failure to meet or failure to vote shall not delay effectiveness</strong> of the Final Plan.</li>
+</ol>
+<h2 id="section-16-non-amendability-prohibition-on-committee-edits">SECTION 16. Non-Amendability; Prohibition on Committee Edits.</h2>
+<ol>
+<li>Neither the Commission nor the General Assembly shall amend district boundaries in any Algorithmic Geometric Plan.  </li>
+<li>The only permitted actions after publication of the Selected Plan are:</li>
+<li>a. identification of a data error requiring rerun;  </li>
+<li>b. identification of a legal defect requiring rerun with objective constraints; or  </li>
+<li>c. judicial review under Part VI.  </li>
+<li>Any attempt to alter boundaries by Manual boundary edit is void.</li>
+</ol>
+<h2 id="section-17-contingency-for-legal-defect-ranked-fallback-plans">SECTION 17. Contingency for Legal Defect; Ranked Fallback Plans.</h2>
+<ol>
+<li>The Technical Unit shall publish, in ranked order, the next <strong>ten</strong> highest-scoring compliant plans as <strong>Fallback Plans</strong> at the time the Selected Plan is published.  </li>
+<li>If a court finds a defect that can be cured without changing the governing criteria, the remedy shall be:</li>
+<li>a. adoption of the highest-ranked Fallback Plan that cures the defect; or  </li>
+<li>b. rerun of the Method using the same weights and seed rules but incorporating only the minimal objective constraints required by the court.  </li>
+</ol>
+<hr />
+<h1 id="part-vi-judicial-review-and-remedies">PART VI. JUDICIAL REVIEW AND REMEDIES</h1>
+<h2 id="section-18-judicial-review-and-remedies">SECTION 18. Judicial Review and Remedies.</h2>
+<ol>
+<li>Any challenge shall be heard on an expedited basis by a three-judge panel in the Superior Court of Wake County, with direct appeal as provided by law.  </li>
+<li>If a plan is found unlawful, the court shall remand with clear findings and provide a reasonable period to cure under Section 17.  </li>
+<li>A court shall not impose a substitute plan unless the Technical Unit fails to cure within the time provided.</li>
+</ol>
+<hr />
+<h1 id="part-vii-constitutional-amendment-submission-to-voters">PART VII. CONSTITUTIONAL AMENDMENT (SUBMISSION TO VOTERS)</h1>
+<h2 id="section-19-constitutional-amendment">SECTION 19. Constitutional Amendment.</h2>
+<ol>
+<li>The General Assembly proposes to the qualified voters of North Carolina an amendment to the North Carolina Constitution to authorize and require an independent redistricting process consistent with this act, transferring primary map-effectiveness authority for legislative and congressional districting from the General Assembly to the <strong>Algorithmic Geometric Plan process</strong>, subject to judicial review.  </li>
+<li>The amendment shall be submitted at the next statewide general election in accordance with Article XIII of the North Carolina Constitution.  </li>
+<li>The ballot question shall read substantially as follows:  <blockquote>
+<p><strong>“Constitutional amendment to require an open, reproducible, geometry-first algorithm to draw legislative and congressional districts and to prohibit partisan gerrymandering and committee line-drawing.”</strong></p>
+</blockquote>
+</li>
+</ol>
+<h2 id="section-20-contingent-effect">SECTION 20. Contingent Effect.</h2>
+<ol>
+<li>Parts II–V of this act shall become fully operative upon certification that the constitutional amendment in Section 19 has been approved by the voters.  </li>
+<li>If the amendment is not approved, Parts III–V shall remain as <strong>mandatory statutory criteria and transparency requirements</strong> governing any redistricting undertaken by the General Assembly, to the extent not inconsistent with the Constitution.</li>
+</ol>
+<hr />
+<h1 id="part-viii-effective-date">PART VIII. EFFECTIVE DATE</h1>
+<h2 id="section-21-effective-date">SECTION 21. Effective Date.</h2>
+<p>Except as otherwise provided, this act is effective when it becomes law.</p>
+<hr />
+<hr />
+<h1 id="reference-notes-not-part-of-the-bill">REFERENCE NOTES (NOT PART OF THE BILL)</h1>
+<ol>
+<li><strong>NC “prior art” structure and criteria style:</strong> Your hearing timeline and “no partisan/election-results data in drawing” approach is aligned with the structure/criteria style found in recent NC proposals such as S698 (2025).  </li>
+<li><strong>NC “no political considerations” language:</strong> Similar prohibitions on considering election results, party affiliation, and incumbency appear in NC proposals such as H20 (2025).  </li>
+<li><strong>Why this bill removes committee line-drawing discretion:</strong> In several states, commissions have failed to agree by deadline, shifting map adoption to courts or special masters; this draft treats that risk as a design constraint and therefore mandates a non-discretionary, algorithmic selection rule.  </li>
+<li><strong>Iowa-style “no political data / no favoritism” model reference:</strong> Iowa’s nonpartisan-staff approach is used here as a structural reference for strict data prohibitions and for insulating map generation from political bargaining.  </li>
+<li><strong>Compactness concept reference:</strong> Iowa guidance is often summarized as favoring</li>
+</ol>
+{% endblock %}
