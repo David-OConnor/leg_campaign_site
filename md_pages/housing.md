@@ -1,7 +1,6 @@
 # Affordable housing
 
-Affordable housing is the backbone of thriving towns and cities. Supporting zoning laws, and tax breaks for occupied
-housing units. The median first-time homebuyer age in America is now forty years old. We are pricing younger generations out of home-ownership. By the end of a typical 30-year mortgage, the majority of the money spent by homeowners simply goes to the lender. 
+Affordable housing is the backbone of thriving towns and cities. Supporting zoning laws, and tax breaks for occupied housing units. The median first-time homebuyer age in America is now forty years old. We are pricing younger generations out of home-ownership. By the end of a typical 30-year mortgage, the majority of the money spent by homeowners simply goes to the lender. 
 
 The accelerating financialization of real estate hurts the younger generation who aspire to be homeowners, or afford rent. 
 

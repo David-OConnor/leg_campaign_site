@@ -1,14 +1,13 @@
 # Why am I running for Congress?
 
-Even if I don't win, my candidacy will shift focus on the foundational issues that serve the people.
+My candidacy will shift focus on the foundational issues that serve the people. What I lack in political experience, I make up for in integrity. I will always, through objective research, do my best to make choices which will benefit the current and future people of America. 
 
-What I will do: Always fight for . I'm not fighting for corporate interests, and not fighting to look good on the hot-button topics aimed to divide us. I'm not fighting for the billionaire class. I will not distract with identity politics, nor . We deserve better than that.
+I'm not fighting for corporate interests, and not using the hot-button topics aimed to divide us. I'm not fighting for the billionaire class. I will not distract with identity politics, nor . We deserve respect, honesty, and transparency from politicians.
 
 
-I'm here to pit American against American, nor create enemies out of convenience. What we share dwarfs what we differ on, so let's focus on that.
+I'm not here to pit American against American, nor create enemies out of convenience. What we share dwarfs what we differ on.
 
-What I will:
-What I won't: Scapegoat certain groups of people.
+We have the resources and technology as a nation to solve the biggest problems we face - I run to make sure we use them.
 
 
 ## Long-term thinking
@@ -21,6 +20,7 @@ basic research, and protecting the biosphere.
 
 ## Direct communications
 I refuse to modulate my communications in order play games or win points. I mean everything I say, and will never dumb down my message, lie, or tell half-truths. I respect my fellow Americans, and will treat you with the empathy and respect you deserve.
+
 
 ## Honesty, integrity, and ethics
 

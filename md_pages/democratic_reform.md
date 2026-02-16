@@ -1,19 +1,27 @@
 # Democratic reform
 
-A fair election system is critical to a healthy democracy, and is a foundation to everything else in politics. Our current system strongly favors incumant candidates, at the expense of representation of the people.
+A fair election system is critical to a healthy democracy, and is the foundation of government. Our current system strongly favors incumbants and well-funded interest groups, at the expense of fair representation, and improving the lives of the people.
 
 
-## Gerrymandering
-There is no conscionable justification for our Gerrymandered electoral districts, and it's embarrasing that we haven't fixed them. Continuing to promote these, even if it means a win for your team, is unethical, and is the root of other problems we face.
+## Districts
+There is no conscionable justification for our Gerrymandered electoral districts - they're embarrassing. Failling to reform them is unethical, and is the root of other problems we face. Even if a given district means a *win* for the party you support, it's an affront to a healthy system.
 
-We cannot allow the people who are elected to determine the election boundaries. This is an inherrantly unfair system with misaligned incentives. Use system with districts that aren't hand-selected to benefit specific parties or candidates
+We cannot allow the people who are elected to determine the election boundaries. This is an inherently unfair system with misaligned incentives. Use a system with districts that aren't hand-selected to benefit specific parties or candidates.
+
 
 ### Legislation
-When elected, I will continue to press for this as a top priority, and will continue to draft and promote legislation that provides a practical path forward on this. I support NC [HR20: Establishing the Select Committee on Electoral Reform]((https://www.congress.gov/bill/119th-congress/house-resolution/20/text?s=1&r=5&q=%7B%22search%22%3A%22election+reform%22%7D))
+When elected, I will continue to press for fair districts as a top priority, and will continue to draft and promote legislation that provides a practical path forward on this. I support NC [HR20: Establishing the Select Committee on Electoral Reform]((https://www.congress.gov/bill/119th-congress/house-resolution/20/text?s=1&r=5&q=%7B%22search%22%3A%22election+reform%22%7D))
 
 - Fix our districts. Gerrymandered districts run counter to the most basic principles of democracy.  Fix them: There is no valid justification for keeping them. This is a truly bipartisan problem, and shows that we’re serious about democracy, and fighting corruption. Our current districts are an embarrassment.
 
 We don’t need a perfect solution, and there are many viable options. I propose ____, but would support any system based on geometry. Fair maps mean politicians are truly representatives of the people, instead of their own interests.
+
+
+### Judicial code of ethics
+I support depoliticizing the Supreme Court. It's currently tied too heavily to the President who appoints each justice. I support increasing the number of Supreme court seats, and implementing a term limit for Justices. Appointments will be spread evenly between presidential terms.
+
+I support enforcing a code of ethics for Supreme Court justices, focused on ensuring Justices remain impartial and make bribes non-viable.
+
 
 
 ## List of current and historic bills I support on this topic
