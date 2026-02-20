@@ -1,4 +1,1 @@
-# Website for my 2026 NC legislature run
-
-## Building
-- todo
+# Website describing what I'd like to fix in government

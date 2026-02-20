@@ -1,7 +1,9 @@
 # Healthcare
 
 ## Affordable healthcare for all
-Care should be between doctors and patients. Health care should be about health; not profits. Currently, the system is driven by extracting profits through rent-seeking middle men. Keep health care to find doctors, patients, labs, and research. Not hospital admins, CEOs, and insurance companies. Some bureaucracy is necessary, but we shouldn’t overdo it: Keep healthcare focused on patients, and their interaction with doctors. This may mean increasing the number of doctors as required to maintain a high quality of care.
+Care should be between doctors and patients. Health care should be about health; not profits. Our current system is driven by rent-seeking middle men. Making CEOs wealthy, generating shareholder value and extracting value at all costs: These are at odds with patient care, and medical innovation. 
+
+Health care must be driven by doctors, patients, labs, and researchers. Not hospital admins, CEOs, and insurance companies. Some bureaucracy is necessary, but we've gone far past that. This means increasing the number of doctors as required to maintain a high quality of care. Funding competition, and removing rent-seeking parasties.
 
 
 ## Transparent healthcare pricing
