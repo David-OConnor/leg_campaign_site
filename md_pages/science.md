@@ -13,3 +13,15 @@ Citizens equipped with a sensitive, accurate BS-detection kit is a robust defens
 ## A role model, as we were
 We will regain our status as a role model for scientific research; attracting top talent 
 from around the world, and nurturing science in our children.
+
+
+## Research reform
+Ban for-profit scientific publishers. These predatory institutions extract profit by being a middle-man in Federally-funded research. They began as a legitimate publishing and science tool, and evolved into a leech. It weakens science, impedes research, wastes Federal funding. Fund research: Not greedy middlemen who provide no value.
+
+American universities pay more than $2 Billion a year on journal subscriptions. In 2023, the US government paid $380 million on article processing charges.
+
+Ban article-processing charges. Invalidate copyrights owned by academic journals. Ban paywalls on articles which use federally-funded research.
+
+Science advancement should be for us all: Rent-seeking on federally-funded research is unacceptable. Banish this parasitic business model. The Trump administration cut funding for science. The reforms I will fight for will save more taxpayer money than these cuts, while improving science instead of damaging it.
+
+<!--(ref https://www.experimental-history.com/p/the-one-science-reform-we-can-all)-->
