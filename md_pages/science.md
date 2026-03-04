@@ -16,7 +16,7 @@ from around the world, and nurturing science in our children.
 
 
 ## Research reform
-I will submit legislation requiring every government grant to require that the research it supports can’t be published in a for-profit journal. The academic community is unable to break free from them due to a collective action problem; we need government action.
+I will submit legislation requiring every government grant to require that the research it supports can’t be published in a for-profit journal. And bans "open-access" fees. The academic community is unable to break free from them due to a collective action problem; we need government action.
 
 For-profit acadmeic journals are predatory institutions extract profit by being a middle-man in Federally-funded research.  They weakens science, impedes research, wastes Federal funding. Fund research: Not greedy middlemen who provide no value.
 
